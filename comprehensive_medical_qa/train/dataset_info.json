@@ -1,0 +1,42 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "comprehensive-medical-qa-dataset",
+  "dataset_size": 22311884,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/elsabado/Comprehensive-Medical-QA-Dataset@55dee7a8100b5f75dea4cf3466ab83e2d0955a43/medical-dataset.csv": {
+      "num_bytes": 22262703,
+      "checksum": null
+    }
+  },
+  "download_size": 22262703,
+  "features": {
+    "Question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 44574587,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 22311884,
+      "num_examples": 16407,
+      "dataset_name": "comprehensive-medical-qa-dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
